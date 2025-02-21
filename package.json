@@ -1,7 +1,7 @@
 {
   "name": "n8n-nodes-current-time",
   "version": "0.1.0",
-  "description": "n8n AI Agent tool that return the current date and time",
+  "description": "AI Agent tool that returns the current date and time",
   "keywords": [
     "n8n-community-node-package"
   ],
