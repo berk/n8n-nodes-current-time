@@ -7,7 +7,7 @@ Thankfully, n8n now supports this functionality via an environment variable.
 https://github.com/n8n-io/n8n/releases/tag/n8n%401.79.0
 https://github.com/n8n-io/n8n/pull/13075
 
-Until this feature is enabled by default, you can use the environment variable `N8N_ALLOW_CUSTOM_TRIGGER_NODES_AS_AITOOLS` to `true`.
+Until this feature is enabled by default, you can set the environment variable `N8N_ALLOW_CUSTOM_TRIGGER_NODES_AS_AITOOLS` to `true`.
 
 ```bash
 $ cd /path/to/n8n
