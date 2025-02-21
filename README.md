@@ -1,15 +1,13 @@
 # n8n-nodes-current-time
 
-This is an n8n community node, which can be used as an AI Agent tool. All it does is return the current time.
-
-I built it while trying to figure out why my other custom node wasn't working as an AI tool. After a bit of digging I learned that at the time of writing this, n8n didn't support custom nodes as AI tools.
-
-But thankfully, right about the same time, n8n released support for custom nodes as AI tools and you could enable it via an environment variable:
+This is a demonstration n8n community node showcasing the use of custom nodes as AI Agents.  It simply returns the current time.
+Its creation stemmed from my investigation into why my own custom nodes weren't initially functioning as AI tools. 
+Thankfully, n8n now supports this functionality via an environment variable.
 
 https://github.com/n8n-io/n8n/releases/tag/n8n%401.79.0
 https://github.com/n8n-io/n8n/pull/13075
 
-Until this feature is enabled by default, you can enable it by setting the environment variable `N8N_ALLOW_CUSTOM_TRIGGER_NODES_AS_AITOOLS` to `true`.
+Until this feature is enabled by default, you can use the environment variable `N8N_ALLOW_CUSTOM_TRIGGER_NODES_AS_AITOOLS` to `true`.
 
 ```bash
 $ cd /path/to/n8n
@@ -25,7 +23,6 @@ $ export N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE=true && pnpm start
 
 [Installation](#installation)  
 [Operations](#operations)  
-[Credentials](#credentials)  
 [Compatibility](#compatibility)  
 [Usage](#usage) 
 [Resources](#resources)  
