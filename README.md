@@ -1,6 +1,6 @@
 # n8n-nodes-current-time
 
-This is a demonstration n8n community node showcasing the use of custom nodes as AI Agents.  It simply returns the current time.
+This is a demonstration of an n8n community node showcasing the use of custom nodes as AI Agents.  It simply returns the current time.
 Its creation stemmed from my investigation into why my own custom nodes weren't initially functioning as AI tools. 
 Thankfully, n8n now supports this functionality via an environment variable.
 
@@ -24,7 +24,7 @@ $ export N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE=true && pnpm start
 [Installation](#installation)  
 [Operations](#operations)  
 [Compatibility](#compatibility)  
-[Usage](#usage) 
+[Usage](#usage)
 [Resources](#resources)  
 [Version history](#version-history)
 
@@ -47,10 +47,6 @@ By the time users are looking for community nodes, they probably already know n8
 ## Resources
 
 * [n8n community nodes documentation](https://docs.n8n.io/integrations/community-nodes/)
-* [Mapbox Static Images API](https://docs.mapbox.com/api/maps/static-images)
-* [Mapbox Geocoding API](https://docs.mapbox.com/api/search/geocode/)
-* [Mapbox Access Tokens](https://docs.mapbox.com/api/accounts/tokens/)
-* [Mapbox Playground](https://docs.mapbox.com/playground/static/)
 
 ## Version history
 
