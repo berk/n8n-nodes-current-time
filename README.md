@@ -1,4 +1,4 @@
-# n8n-nodes-currentTime
+# n8n-nodes-current-time
 
 This is an n8n community node, which can be used as an AI Agent tool. All it does is return the current time.
 
